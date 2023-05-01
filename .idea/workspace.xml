@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38bb7903-2820-4132-8bb9-ec52d15e2940" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CashBackServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +58,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;TestNG&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -72,7 +72,7 @@
       <recent name="ru.netology" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CashBackServiceTest.ShouldReturnZeroIfAmountEqualBoundary">
+  <component name="RunManager" selected="Gradle.CashBackServiceTest.ShouldReturnDifferenceIfBoundaryIsBigger">
     <configuration name="CashBackServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -186,8 +186,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CashBackServiceTest.ShouldReturnZeroIfAmountEqualBoundary" />
         <item itemvalue="Gradle.CashBackServiceTest.ShouldReturnDifferenceIfBoundaryIsBigger" />
+        <item itemvalue="Gradle.CashBackServiceTest.ShouldReturnZeroIfAmountEqualBoundary" />
         <item itemvalue="Gradle.CashBackServiceTest" />
         <item itemvalue="Gradle.JUnit4Tests [test]" />
         <item itemvalue="Gradle.JUnit4Tests [dependencies]" />
