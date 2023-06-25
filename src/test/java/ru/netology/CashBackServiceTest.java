@@ -6,7 +6,7 @@ import static org.testng.Assert.*;
 
 public class CashBackServiceTest {
 
-            @Test
+            @org.testng.annotations.Test
             public void ShouldReturnDifferenceIfBoundaryIsBigger() {
                 CashBackService service = new CashBackService();
 
@@ -16,7 +16,7 @@ public class CashBackServiceTest {
                 assertEquals(actual, expected);
             }
 
-            @Test
+            @org.testng.annotations.Test
             public void ShouldReturnZeroIfAmountEqualBoundary() {
                 CashBackService service = new CashBackService();
 
@@ -26,7 +26,7 @@ public class CashBackServiceTest {
                 assertEquals(actual, expected);
             }
 
-            @Test
+            @org.testng.annotations.Test
             public void ShouldReturnDifferenceIfAmountIsBigger() {
                 CashBackService service = new CashBackService();
 
