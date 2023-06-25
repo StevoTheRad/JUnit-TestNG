@@ -12,30 +12,30 @@ public class CashBackServiceTest {
     public void ShouldReturnDifferenceIfBoundaryIsBigger() {
         CashBackService service = new CashBackService();
 
-        int actual = service.remain(900);
         int expected = 100;
+        int actual = service.remain(900);
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
     public void ShouldReturnZeroIfAmountEqualBoundary() {
         CashBackService service = new CashBackService();
-
-        int actual = service.remain(1000);
+        
         int expected = 0;
+        int actual = service.remain(1000);
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
     public void ShouldReturnDifferenceIfAmountIsBigger() {
         CashBackService service = new CashBackService();
 
-        int actual = service.remain(1600);
         int expected = 400;
+        int actual = service.remain(1600);
 
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 }
 
